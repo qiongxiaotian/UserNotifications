@@ -1,6 +1,6 @@
 ## UserNotifications
 
-* ios10的通知一些自己学习
+* ios10通知的一些自己学习
 
 ## 参考:
 * <http://www.jianshu.com/p/c58f8322a278>
