@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bta-Jx-YGN">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.23034818670000001" blue="0.41931905860000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.23034818670000001" blue="0.41931905860000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="GcN-lo-r42" firstAttribute="centerX" secondItem="bta-Jx-YGN" secondAttribute="centerX" id="jef-pp-46c"/>
+                                    <constraint firstItem="GcN-lo-r42" firstAttribute="centerY" secondItem="bta-Jx-YGN" secondAttribute="centerY" id="zoD-6Q-JnJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gTe-DT-Dkz">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="8AW-G0-S2e">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2156862745" green="0.50196078430000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="8AW-G0-S2e" firstAttribute="centerY" secondItem="gTe-DT-Dkz" secondAttribute="centerY" id="MtN-fR-dPk"/>
+                                    <constraint firstItem="8AW-G0-S2e" firstAttribute="centerX" secondItem="gTe-DT-Dkz" secondAttribute="centerX" id="S8v-TQ-5y0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7BW-FM-cg6">
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="tWZ-xZ-QXt">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.46666666870000001" green="0.76470589639999997" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tWZ-xZ-QXt" firstAttribute="centerY" secondItem="7BW-FM-cg6" secondAttribute="centerY" id="hIs-f8-UBc"/>
+                                    <constraint firstItem="tWZ-xZ-QXt" firstAttribute="centerX" secondItem="7BW-FM-cg6" secondAttribute="centerX" id="upI-d1-RNA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882353186607361" green="0.74901962280273438" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gTe-DT-Dkz" secondAttribute="trailing" id="1K0-ha-rOL"/>
+                            <constraint firstItem="gTe-DT-Dkz" firstAttribute="height" secondItem="bta-Jx-YGN" secondAttribute="height" id="5yb-U1-ezQ"/>
+                            <constraint firstItem="gTe-DT-Dkz" firstAttribute="top" secondItem="bta-Jx-YGN" secondAttribute="bottom" id="6Pv-aY-kRv"/>
+                            <constraint firstItem="bta-Jx-YGN" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="AoP-fU-Ad9"/>
+                            <constraint firstItem="7BW-FM-cg6" firstAttribute="height" secondItem="bta-Jx-YGN" secondAttribute="height" id="DgA-zm-Vku"/>
+                            <constraint firstAttribute="trailing" secondItem="bta-Jx-YGN" secondAttribute="trailing" id="JwL-Oe-Abp"/>
+                            <constraint firstAttribute="bottom" secondItem="7BW-FM-cg6" secondAttribute="bottom" id="QKm-vZ-QGF"/>
+                            <constraint firstAttribute="trailing" secondItem="7BW-FM-cg6" secondAttribute="trailing" id="esA-1R-GZf"/>
+                            <constraint firstItem="gTe-DT-Dkz" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="qBN-0i-LlI"/>
+                            <constraint firstItem="7BW-FM-cg6" firstAttribute="top" secondItem="gTe-DT-Dkz" secondAttribute="bottom" id="wh1-qg-Lao"/>
+                            <constraint firstItem="bta-Jx-YGN" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="wpw-aq-ntA"/>
+                            <constraint firstItem="7BW-FM-cg6" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="yIb-er-ewJ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="400"/>
+                    <connections>
+                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="138.53073463268368"/>
+        </scene>
+    </scenes>
+</document>
